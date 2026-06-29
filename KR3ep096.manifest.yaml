@@ -1,0 +1,66 @@
+canonical_identifier: bkk:krp/KR3ep096/v1
+canonical_location: https://kanripo.org/bkk/KR3ep096/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 徐渡漁先生醫案
+  identifiers:
+    krp: KR3ep096
+  tags:
+    kr-categories: KR3ep
+  source:
+    repository: tls-texts
+    path: data/tls/KR3ep096.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 0, filename: KR3ep096_000.yaml, hash: 'sha256:ba1f2dd23004889597837c94bd110941d07ec4fd8f5f6190fab3f637f654a19e'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3ep096_000.markers.yaml, hash: 'sha256:971e9c19a2aca1f6f213e08efea8f923606e1eef4136814420dc6d18089d5b83'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3ep096_jc_000-d2.h1s1
+    span:
+    - body
+    - 0
+    - 4181
+  label: 溫
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3ep096_jc_000-d3.h1s1
+    span:
+    - body
+    - 4181
+    - 5509
+  label: 瘧疾
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3ep096_jc_000-d4.h1s1
+    span:
+    - body
+    - 5509
+    - 6802
+  label: 痢疾
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3ep096_jc_000-d5.h1s1
+    span:
+    - body
+    - 6802
+    - 12061
+  label: 雜症
+  type: section
+  level: 1
+hash: sha256:531cd55fe0c27d091318d46be3fda02f54a080e6de20244466f773c4b5b8b611
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
